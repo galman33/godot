@@ -2,4 +2,4 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - init: |
-      echo 'hello'
+      scons platform=web target=editor
