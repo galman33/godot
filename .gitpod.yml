@@ -4,3 +4,4 @@ tasks:
   - init: |
       source ~/emsdk/emsdk_env.sh
       scons platform=web target=editor
+  - command: python3 platform/web/serve.py --no-browser
