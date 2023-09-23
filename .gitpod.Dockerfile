@@ -1,6 +1,6 @@
 FROM gitpod/workspace-base
 
-USER gitpod
+USER root
 
 RUN sudo apt install -y python3-pip
 RUN python3 -m pip install scons
