@@ -1,5 +1,7 @@
 FROM gitpod/workspace-base
 
+USER gitpod
+
 RUN sudo apt install -y python3-pip
 RUN python3 -m pip install scons
 RUN git clone https://github.com/emscripten-core/emsdk.git
