@@ -2,4 +2,5 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - init: |
+      source ~/emsdk/emsdk_env.sh
       scons platform=web target=editor
