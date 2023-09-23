@@ -9,4 +9,4 @@ RUN git clone https://github.com/emscripten-core/emsdk.git \
     && chmod +x ./emsdk \
     && ./emsdk install latest \
     && ./emsdk activate latest \
-    && source ./emsdk_env.sh
+    && . ./emsdk_env.sh
